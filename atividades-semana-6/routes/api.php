@@ -16,4 +16,4 @@ use App\Http\Controllers\PessoasController;
 */
 
 Route::resource('pessoas', PessoasController::class)
-    ->only(['index', 'store', 'update', 'destroy']);
+    ->only(['index', 'show', 'store', 'update', 'destroy']);
